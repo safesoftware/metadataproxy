@@ -1,4 +1,4 @@
-FROM python:2.7.11
+FROM python:2.7.15-slim
 COPY . /srv/metadataproxy/
 
 RUN pip --no-cache-dir install -r /srv/metadataproxy/requirements.txt && \
